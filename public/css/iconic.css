@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'iconic';
+  src: url('../fonts/iconic.eot?5500630');
+  src: url('../fonts/iconic.eot?5500630#iefix') format('embedded-opentype'),
+       url('../fonts/iconic.woff2?5500630') format('woff2'),
+       url('../fonts/iconic.woff?5500630') format('woff'),
+       url('../fonts/iconic.ttf?5500630') format('truetype'),
+       url('../fonts/iconic.svg?5500630#iconic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="tt-"]:before, [class*=" tt-"]:before {
+  font-family: "iconic";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.tt-telegram-1:before { content: '\e800'; } /* '' */
+.tt-telegram-2:before { content: '\e801'; } /* '' */
+.tt-paper-plane-1:before { content: '\e802'; } /* '' */
+.tt-paper-plane:before { content: '\f1d8'; } /* '' */
+.tt-paper-plane-empty:before { content: '\f1d9'; } /* '' */
+.tt-telegram:before { content: '\f2c6'; } /* '' */
